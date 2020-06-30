@@ -1,4 +1,4 @@
-class Post < ApplicationRecord
+class Article < ApplicationRecord
   extend FriendlyId
   friendly_id :name, use: :slugged
 
